@@ -7,14 +7,17 @@ import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial";
 import Gallery from "./components/Gallery";
+
+
+
 export default function App() {
   return (
    <>
-   <Header/>
-   <Hero/>
+   <Header />
+   <Hero />
    <Gallery/>
-   <Features/>
-   <Testimonial/>
+      <Features/>
+      <Testimonial />
 
     <Contact/>
 
@@ -23,7 +26,7 @@ export default function App() {
 
 
 
-      <FloatingWhatsApp phoneNumber="+919321584847" accountName="Sameer" avatar={avatar} />
+      <FloatingWhatsApp phoneNumber="+919920964000" accountName="Sameer" avatar={avatar} />
 
     
    </>
