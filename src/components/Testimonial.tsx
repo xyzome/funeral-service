@@ -1,4 +1,4 @@
-
+import avt from '../images/avatar.png'
 function Testimonial() {
   return (
     <>
@@ -13,9 +13,9 @@ function Testimonial() {
           </svg>
           <p className="leading-relaxed mb-6">"In a moment of true urgency, this service came to our rescue. The team’s swift response and genuine care saved my loved one’s life. We’ll never forget their kindness in our darkest hour."</p>
           <a className="inline-flex items-center">
-            <img alt="testimonial" src="https://dummyimage.com/106x106" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                  <img alt="testimonial" src={avt} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
             <span className="flex-grow flex flex-col pl-4">
-              <span className="title-font font-medium text-gray-900">John Doe</span>
+              <span className="title-font font-medium text-gray-900">Sam Desouza</span>
               <span className="text-gray-500 text-sm">Business Owner</span>
             </span>
           </a>
@@ -28,7 +28,7 @@ function Testimonial() {
           </svg>
           <p className="leading-relaxed mb-6">"Their fast response and incredible support during the emergency gave us peace of mind. The medical team was professional and compassionate, making a stressful situation much easier to handle."</p>
           <a className="inline-flex items-center">
-            <img alt="testimonial" src="https://dummyimage.com/107x107" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
+                  <img alt="testimonial" src={avt} className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
             <span className="flex-grow flex flex-col pl-4">
               <span className="title-font font-medium text-gray-900">Jane Smith</span>
               <span className="text-gray-500 text-sm">Teacher</span>

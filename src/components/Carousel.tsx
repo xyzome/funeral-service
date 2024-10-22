@@ -1,13 +1,16 @@
 import { Carousel } from "flowbite-react";
 import '../App.css'
+import img4 from '../images/4.jpg'
+import img1 from '../images/1.jpg'
+import img12 from '../images/12.jpg'
 function Hero() {
   return (
     <div className="h-64 sm:h-80 xl:h-96 2xl:h-[30rem]">
-      <Carousel slide={true} slideInterval={3000}>
+      <Carousel slide={true} slideInterval={1000}>
         {/* Slide 1 */}
         <div className="relative">
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
+            src={img4}
             alt="Shanti by Antim Yatra"
             className="h-full w-full object-cover transform transition-transform duration-[2000ms] scale-100 hover:scale-105"
           />
@@ -30,7 +33,7 @@ function Hero() {
         {/* Slide 2 */}
         <div className="relative">
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
+            src={img12}
             alt="Shanti by Antim Yatra"
             className="h-full w-full object-cover transform transition-transform duration-[2000ms] scale-100 hover:scale-105"
           />
@@ -53,7 +56,7 @@ function Hero() {
         {/* Slide 3 */}
         <div className="relative">
           <img
-            src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
+            src={img1}
             alt="Shanti by Antim Yatra"
             className="h-full w-full object-cover transform transition-transform duration-[2000ms] scale-100 hover:scale-105"
           />
